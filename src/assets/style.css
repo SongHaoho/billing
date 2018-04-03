@@ -23,6 +23,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* 增加样式 */
+.icon {font-family: "icomoon" !important;font-size: 24px;font-weight: normal;font-style: normal;line-height: 1;display: inline-block;text-decoration: none;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;}
 
 .icon-home:before {
   content: "\e900";

@@ -19,3 +19,12 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+链接：
+1.在vue中使用sass的配置的方法：https://blog.csdn.net/lily2016n/article/details/75309492
+2.IcoMoon图标字体的使用：https://blog.csdn.net/suwu150/article/details/55045987
+
+其他：
+移动端商城：https://github.com/Jarweb/mall-vue
+Vue2.0 Transition常见用法全解惑：https://segmentfault.com/a/1190000007738518
+理解vuex -- vue的状态管理模式：https://segmentfault.com/a/1190000012015742
