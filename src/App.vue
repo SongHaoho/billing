@@ -10,10 +10,12 @@ export default {
 }
 </script>
 
-<style lang="less">
-@import '~vux/src/styles/reset.less';
+<style lang="scss">
+@import "./assets/scss/reset";
+@import "./assets/scss/define";
 
 body {
+  @extend %oh;
   background-color: #fbf9fe;
 }
 </style>
