@@ -7,30 +7,44 @@ import chart from '@/components/chart'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   routes: [
     /* 首页 */
     {
       path: '/',
-      component: Home
+      name: 'home',
+      component: Home,
+      meta: {
+        index: 1
+      }
     },
     /* 记账 */
     {
       path: '/account',
       name: 'account',
-      component: account
+      component: account,
+      meta: {
+        index: 2
+      }
     },
     /* 账单 */
     {
       path: '/bill',
       name: 'bill',
-      component: bill
+      component: bill,
+      meta: {
+        index: 5
+      }
     },
     /* 分析 */
     {
       path: '/chart',
       name: 'chart',
-      component: chart
+      component: chart,
+      meta: {
+        index: 6
+    }
     },
   ]
-})
+});
+export default router;
