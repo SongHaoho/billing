@@ -11,6 +11,14 @@ export default {
     return {
       msg: 'Hello World!'
     }
+  },
+  created () {
+    this.setNavIndex();
+  },
+  methods: {
+    setNavIndex () {
+      this.$store.commit(types.SET_NAV_INDEX,'1')
+    },
   }
 }
 </script>

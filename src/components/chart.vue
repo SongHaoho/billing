@@ -11,6 +11,14 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  created () {
+    this.setNavIndex();
+  },
+  methods: {
+    setNavIndex () {
+      this.$store.commit(types.SET_NAV_INDEX,'4')
+    },
   }
 }
 </script>

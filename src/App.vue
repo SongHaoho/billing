@@ -5,19 +5,19 @@
     </transition>
     <!-- 导航条 -->
     <tabbar>
-      <tabbar-item link="/">
+      <tabbar-item :selected="navIndex == 1" link="/">
         <i slot="icon" class="icon icon-home"></i>
         <span slot="label">首页</span>
       </tabbar-item>
-      <tabbar-item link="/account">
+      <tabbar-item :selected="navIndex == 2" link="/account">
         <i slot="icon" class="icon icon-pen"></i>
         <span slot="label">记账</span>
       </tabbar-item>
-      <tabbar-item link="/bill">
+      <tabbar-item :selected="navIndex == 3" link="/bill">
         <i slot="icon" class="icon icon-file-text"></i>
         <span slot="label">账单</span>
       </tabbar-item>
-      <tabbar-item link="/chart">
+      <tabbar-item :selected="navIndex == 4" link="/chart">
         <i slot="icon" class="icon icon-stats-dots"></i>
         <span slot="label">分析</span>
       </tabbar-item>
@@ -29,6 +29,11 @@
   import { Tabbar, TabbarItem } from 'vux'
   export default {
     name: 'app',
+    computed: {
+      navIndex () {
+          return this.$store.state.nav_index;
+      },
+    },
     data(){
       return{
         transitionName:'',
