@@ -30,3 +30,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 移动端商城：https://github.com/Jarweb/mall-vue
 Vue2.0 Transition常见用法全解惑：https://segmentfault.com/a/1190000007738518
 Vuex，从入门到入门：https://zhuanlan.zhihu.com/p/24357762
+HTML+CSS基础课程: https://www.imooc.com/code/2077
+CSS常用标签: https://www.cnblogs.com/HDK2016/p/6127582.html
