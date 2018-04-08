@@ -4,7 +4,7 @@
       <router-view></router-view>
     </transition>
     <!-- 导航条 -->
-    <tabbar>
+    <tabbar style="position: fixed">
       <tabbar-item :selected="navIndex == 1" link="/">
         <i slot="icon" class="icon icon-home"></i>
         <span slot="label">首页</span>

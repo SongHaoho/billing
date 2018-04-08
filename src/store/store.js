@@ -11,12 +11,6 @@ const state = {
     nav_index: 1
 };
 
-/** 用export default 封装代码，让外部可以引用 */
-export default new Vuex.Store({
-    state,
-    mutations
-});
-
 /**
  * 提交同步请求
  * */
@@ -26,3 +20,9 @@ const mutations = {
         state.nav_index = nav_index;
     }
 };
+
+/** 用export default 封装代码，让外部可以引用 */
+export default new Vuex.Store({
+    state,
+    mutations
+});

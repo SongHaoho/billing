@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/HelloFromVux'
-import account from '@/components/account'
-import bill from '@/components/bill'
-import chart from '@/components/chart'
+import Home from '@/views/home/Home'
+import account from '@/views/account'
+import bill from '@/views/bill'
+import chart from '@/views/chart'
 
 Vue.use(Router)
 

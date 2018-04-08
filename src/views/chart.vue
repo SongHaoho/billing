@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import types from '../store/mutation-types'
 export default {
   name: 'HelloWorld',
   data () {

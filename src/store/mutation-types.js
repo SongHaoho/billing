@@ -3,5 +3,5 @@
 /** 判断菜单栏选择情况 */
 const SET_NAV_INDEX = 'SET_NAV_INDEX';
 export default {
-    SET_NAV_INDEX,
+    SET_NAV_INDEX
 }
