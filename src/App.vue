@@ -65,6 +65,17 @@ body {
   @extend %oh;
   background-color: #fbf9fe;
 }
+.weui-bar__item_on{
+    .icon{
+        fill: #09BB07;
+    }
+    span{
+        padding: 0 3px;
+        border-radius: 5px;
+        color: #fff !important;
+        background-color: #09BB07;
+    }
+}
 
 .slide-right-enter-active,
 .slide-right-leave-active,
